@@ -28,9 +28,6 @@ Landing pages pensadas como projeto de agência, construídas e publicadas com a
 
 <div align="center">
 
-
-<br/>
-
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=kayky05&show_icons=true&theme=tokyonight&hide_border=true&locale=pt-br" />
 
 <br/>
