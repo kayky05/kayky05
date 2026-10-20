@@ -1,0 +1,54 @@
+<svg width="900" height="250" viewBox="0 0 900 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .body { font-family: 'Segoe UI', Ubuntu, -apple-system, sans-serif; }
+    .mono { font-family: 'Cascadia Code', 'Fira Code', Consolas, monospace; }
+    .dot { animation: pulse 3s ease-in-out infinite; }
+    .dot.d2 { animation-delay: .7s; }
+    .dot.d3 { animation-delay: 1.4s; }
+    .dot.d4 { animation-delay: 2.1s; }
+    @keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+    .bar { animation: grow 4s ease-in-out infinite; transform-origin: 16px 30px; }
+    @keyframes grow { 0%,100% { transform: scaleY(1); } 50% { transform: scaleY(.85); } }
+  </style>
+
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="900" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#11151d"/>
+      <stop offset="1" stop-color="#0d1017"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="16" y1="30" x2="16" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#19c7c7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- card -->
+  <rect x="1" y="1" width="898" height="248" rx="14" fill="url(#cardBg)" stroke="#2a3242" stroke-width="1.5"/>
+  <!-- barra lateral -->
+  <rect class="bar" x="16" y="30" width="4" height="190" rx="2" fill="url(#accent2)"/>
+
+  <!-- título -->
+  <text class="body" x="44" y="56" font-size="19" font-weight="700" fill="#f0f0eb" letter-spacing="3">SOBRE</text>
+  <line x1="44" y1="68" x2="856" y2="68" stroke="#2a3242" stroke-width="1"/>
+
+  <!-- texto principal -->
+  <text class="body" font-size="14.5" fill="#c9d1d9">
+    <tspan x="44" y="98">Dono de negócio e profissional de marketing, crio <tspan font-weight="700" fill="#f0f0eb">landing pages de nível agência</tspan> com IA.</tspan>
+    <tspan x="44" y="122">Mantenho um kit e um método próprios para sair do zero a uma LP publicada em poucos dias.</tspan>
+  </text>
+
+  <!-- bullets -->
+  <g class="body" font-size="13.5" fill="#9aa4b2">
+    <rect class="dot" x="44" y="147" width="7" height="7" rx="1.5" fill="#7c5cff" transform="rotate(45 47.5 150.5)"/>
+    <text x="62" y="157">Stack: <tspan class="mono" fill="#8fe3e3">React 19 + Vite + TypeScript + Tailwind v4</tspan></text>
+    <rect class="dot d2" x="44" y="172" width="7" height="7" rx="1.5" fill="#7c5cff" transform="rotate(45 47.5 175.5)"/>
+    <text x="62" y="182">Componentes com React Bits, 21st.dev e shadcn/ui</text>
+    <rect class="dot d3" x="44" y="197" width="7" height="7" rx="1.5" fill="#7c5cff" transform="rotate(45 47.5 200.5)"/>
+    <text x="62" y="207">Vídeos gerados com IA (Higgsfield) integrados às seções das LPs</text>
+    <rect class="dot d4" x="44" y="222" width="7" height="7" rx="1.5" fill="#7c5cff" transform="rotate(45 47.5 225.5)"/>
+    <text x="62" y="232">Deploy em Cloudflare Pages + R2 e Hostinger</text>
+  </g>
+
+  <!-- marca decorativa à direita -->
+  <text class="mono" x="700" y="200" font-size="90" fill="none" stroke="#1d2432" stroke-width="1.2" opacity=".9">&lt;/&gt;</text>
+</svg>
