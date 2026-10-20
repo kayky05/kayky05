@@ -28,6 +28,14 @@ Landing pages pensadas como projeto de agência, construídas e publicadas com a
 
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kayky05/kayky05/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kayky05/kayky05/output/github-snake-light.svg" />
+  <img alt="snake animation" src="https://raw.githubusercontent.com/kayky05/kayky05/output/github-snake.svg" />
+</picture>
+
+<br/>
+
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=kayky05&show_icons=true&theme=tokyonight&hide_border=true&locale=pt-br" />
 
 <br/>
